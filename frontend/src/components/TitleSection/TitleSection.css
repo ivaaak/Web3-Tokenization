@@ -1,0 +1,65 @@
+.carousel {
+    height: 100%;
+    margin: 10px;
+    opacity: 0.95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-arrow {
+    background-color: rgba(0, 0, 0, 0.455) !important;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.carousel.slide img {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carousel .thumbs-wrapper {
+    display: none;
+}
+
+header .carousel-root {
+    width: 50%;
+    height: 500px;
+}
+
+.carousel .slide img {
+    border-radius: 20px;
+}
+
+.pricingBtn {
+    background: var(--secondary-blue);
+    cursor: pointer;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    color: var(---primary);
+    font-size: 1.2rem;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.intro {
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+form {
+    margin-top: 1rem;
+}
