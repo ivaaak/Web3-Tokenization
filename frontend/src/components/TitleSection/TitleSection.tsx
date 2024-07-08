@@ -12,15 +12,6 @@ const TitleSection = () => {
 
   const quotes = [
     "Design Beyond Imagination.",
-    "Sketch, Create, Innovate.",
-    "Blueprints to Brilliance.",
-    "Unleash Architectural Ingenuity.",
-    "Empowering Creativity, One Sketch at a Time.",
-    "Architect Your Vision with Precision.",
-    "From Concept to Construction, Seamlessly.",
-    "Elevate Your Designs with AI Precision.",
-    "Transform Ideas into Masterpieces.",
-    "Architectural Excellence Made Effortless."
   ];
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -50,10 +41,9 @@ const TitleSection = () => {
   return (
     <header>
       <div className="intro">
-        <h1>Generate Sketches Using AI </h1>
+        <h1> Tokenize Real World Entities using the Ethereum Blockchain </h1>
         <h1 style={{ opacity: '0.7' }}>{currentQuote}</h1>
         {isAuthenticated && <h3 style={{ opacity: '0.7' }}>Welcome, {user?.name?.split('@')[0]}</h3>}
-        <h2 style={{ opacity: '0.7' }}>Powered By StableDiffusion and ControlNet AI Models</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="email"

@@ -8,6 +8,7 @@ import { useContext } from 'react';
 import UserProfile from './components/UserProfile';
 import UnauthorizedPage from './components/UnauthorizedPage';
 import './App.css';
+import Dashboard from './Dashboard';
 
 function App() {
    const { isAuthenticated, user, loginWithRedirect } = useAuth0();
@@ -19,7 +20,7 @@ function App() {
             <main>
                <nav>
                   <Link to="/">
-                     <div className='navTitle'><h1 className='title'>Arch</h1><h1 className='title2'>AI</h1></div>
+                     <div className='navTitle'><h1 className='title'>dApp</h1><h1 className='title2'>Tokenization</h1></div>
                   </Link>
 
                   <ul>
@@ -50,7 +51,7 @@ function App() {
                   </ul>
                </nav>
                <Routes>
-                  {/* <Route path="/" element={<Features />} /> */}
+                  <Route path="/" element={<Dashboard />} />
                   <Route path="/profile" element={<UserProfile />} />
                   {/* <Route path="/sketch" element={isAuthenticated ? <SketchImage /> : <UnauthorizedPage />} /> */}
                   <Route path="*" element={<UnauthorizedPage />} /> {/* Catch-all route for unauthorized access */}

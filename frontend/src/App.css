@@ -51,7 +51,6 @@
   --accent-color: var(--accent-color-light)
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -59,17 +58,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#root {
-  background-color: var(--bg-primary);
-}
-
-main {
-  position: relative;
-  background-image: url('../assetImages/bg4.png') !important;
-}
-
 body {
-  padding: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,10 +68,9 @@ body {
 }
 
 main {
-  width: 98vw;
   background: var(--bg-secondary);
-  border-radius: 0.5rem;
-  box-shadow: 0 0 5rem #0b0b0b;
+  width: 100vw;
+  height: 100vh;
 }
 
 nav {
