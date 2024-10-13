@@ -5,6 +5,9 @@ The project consists of:
   
 ### [Backend: Express + Ethers.js + Solidity + IPFS](https://github.com/ivaaak/Web3-Tokenization/tree/main/backend)
 
+## Smart Contract Architecture / Diagram:
+<img src="https://raw.githubusercontent.com/ivaaak/Web3-Tokenization/tree/main/blockchain/contracts_diagram.png"></img>
+
 ## Project Startup:
 You can run the below commands from the main directory and start the project:
 
@@ -23,5 +26,3 @@ This installs and starts both the FE and BE using the npm tool 'concurrently'. O
 -  [**✔**]  `Axios`
 -  [**✔**]  `MongoDB`
 -  [**✔**]  `Stripe`
-
-
